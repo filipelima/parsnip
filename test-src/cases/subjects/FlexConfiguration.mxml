@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<fx:Object xmlns:fx="http://ns.adobe.com/mxml/2009"
+           xmlns:s="library://ns.adobe.com/flex/spark"
+           xmlns:mx="library://ns.adobe.com/flex/mx"
+           xmlns:subjects="cases.subjects.*"
+        >
+
+    <fx:Declarations>
+        <subjects:Actor id="actorA"/>
+        <subjects:Actor id="actorB"/>
+        <subjects:Mediator id="mediator" view="{new View()}"/>
+    </fx:Declarations>
+
+</fx:Object>
